@@ -99,6 +99,8 @@ endif
 " CtrlP settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ctrl_working_path_mode='ra'
+" let CtrlP ignore these dirs/files
+set wildignore+=*/obj/*,*.so,*.swp,*.gz
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General key mappings
