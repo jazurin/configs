@@ -23,7 +23,9 @@ Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'majutsushi/tagbar'
 Plugin 'sukima/xmledit'
-
+"experimental:
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'mfukar/robotframework-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
