@@ -75,17 +75,20 @@ set wrap "Wrap lines
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Color scheme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set t_Co=256 "set colors to 256 to support colorschemes that need it
+
 if has("gui_running")
-    set background=dark
     colorscheme solarized
-" No menus and no toolbar
+    " No menus and no toolbar
     set guioptions-=m
     set guioptions-=T
     set columns=184
     set lines=53
 else
-    colorscheme Monokai
+    colorscheme gruvbox "supports better search highlighting
 endif
+
+set background=dark "set background after loading colorscheme
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight when going beyond 80 columns
